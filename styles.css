@@ -90,7 +90,9 @@ li {
   background-size: cover;
   position: relative;
   display: flex;
-  background: (--var-clr-Soft-violet);
+  background: var(--var-clr-Soft-violet);
+  opacity: .8;
+  filter: contrast(2), saturate(50);
 }
 .filter {
   display: block;
@@ -98,7 +100,7 @@ li {
   height: auto;
   background: url('./images/image-header-mobile.jpg') no-repeat center;
   background-size: cover;
-  opacity: 0.6;
+  opacity: 1;
 }
 
 @media screen and (min-width: 720px) {
