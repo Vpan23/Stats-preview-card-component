@@ -104,6 +104,15 @@ li {
   background-size: cover;
   opacity: 0.6;
 }
+..main__picture-header {
+    background: var(--soft-violet);
+}
+
+.main__header-image {
+    mix-blend-mode: multiply;
+    opacity: .75;
+    object-fit: cover;
+}
 
 @media screen and (min-width: 720px) {
   .card {
